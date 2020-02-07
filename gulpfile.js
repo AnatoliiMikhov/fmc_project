@@ -36,10 +36,10 @@ gulp.task('html', function () {
 		.pipe(gulp.dest('dist/'));
 });
 
-gulp.task('favicon', function () {
+/* gulp.task('favicon', function () {
 	return gulp.src('src/favicon.ico')
 		.pipe(gulp.dest('dist/'));
-});
+}); */
 
 gulp.task('scripts', function () {
 	return gulp.src("src/js/**/*js")
@@ -72,4 +72,4 @@ gulp.task('watch', function () {
 	gulp.watch("src/*.html").on('change', gulp.parallel('html'));
 });
 
-gulp.task('default', gulp.parallel('html', 'styles', 'icon', 'fonts', 'images', 'favicon', 'scripts', 'mailer', 'watch', 'server'));
+gulp.task('default', gulp.parallel('html', 'styles', 'icon', 'fonts', 'images', 'scripts', 'mailer', 'watch', 'server'));
