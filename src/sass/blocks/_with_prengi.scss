@@ -1,0 +1,72 @@
+.with-prengi {
+	padding: 79px 0 81px;
+
+	&-item {
+		height: 255px;
+		border: 1.0px solid #ececec;
+		position: relative;
+		overflow: hidden;
+	}
+
+	&__img {
+		width: 192px;
+		height: 186px;
+		margin: 0 auto;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__descr {
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 300;
+		color: #393939;
+		text-align: center;
+		width: 240px;
+		margin: 0 auto;
+	}
+
+	&__icon {
+		width: 90px;
+		height: 93px;
+		position: absolute;
+		bottom: 14px;
+		right: -24px;
+
+		i {
+			font-size: 100px;
+			color: rgba($color: #00c2f0, $alpha: 0.05)
+		}
+	}
+
+	&-divider {
+		padding: 50px 0 37px;
+	}
+
+	&__arrow {
+		display: block;
+		margin: 0 auto;
+	}
+
+	&__heading {
+		font-size: 48px;
+		line-height: 30px;
+		font-weight: 700;
+		color: #393939;
+		margin-top: 33px;
+		margin-bottom: 0;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.transform45deg {
+		transform: rotate(45deg);
+	}
+
+	.check-icon {
+		bottom: 8px;
+		right: 8px;
+	}
+}

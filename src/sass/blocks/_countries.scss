@@ -1,0 +1,44 @@
+.countries {
+	padding: 20px 0 20px 0;
+	&-wrapper {
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	&-item {
+		display: flex;
+
+		&__img {
+			display: block;
+			width: 28px;
+			height: 21px;
+		}
+
+		&__text {
+			margin-left: 11px;
+		}
+
+		&__heading {
+			font-size: 14px;
+			line-height: 13px;
+			font-weight: 700;
+			color: #242424;
+			margin-bottom: 3px;
+		}
+
+		&__address,
+		&__phone,
+		&__mail-link {
+			display: block;
+			font-size: 12px;
+			line-height: 18px;
+			font-weight: 300;
+			color: #242424;
+		}
+
+		&__address {
+			margin-bottom: 0;
+		}
+	}
+}

@@ -1,0 +1,36 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__logo-img {
+		width: 100%;
+	}
+
+	&-nav {
+
+		&__list {
+			list-style-type: none;
+			display: flex;
+			padding: 0;
+			margin-bottom: 0;
+		}
+
+		&__item {
+			margin-left: 45px;
+		}
+
+		&__link {
+			font-size: 13px;
+			line-height: 26px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #ffffff;
+
+			&:hover {
+				color: #ffffff;
+				text-decoration: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+.tabs {
+	margin-bottom: 36px;
+
+	&__caption {
+		display: flex;
+		justify-content: space-around;
+		width: 843px;
+		list-style-type: none;
+		border: 1px solid #ffffff;
+		border-radius: 4px;
+		margin: 0 auto;
+		padding: 7px 0;
+
+		li:last-child a {
+			border: none;
+		}
+
+	}
+
+	&__link {
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		color: #ffffff;
+		padding: 19px 25px 16px;
+		border-right: 1px solid #ccc;
+
+		&:hover {
+			font-weight: 700;
+			color: #00c2f0;
+			text-decoration: none;
+			padding: 19px 24px 16px;
+		}
+
+	}
+}

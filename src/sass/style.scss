@@ -1,0 +1,18 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/fontello.scss';
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/container';
+@import 'blocks/countries';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/with_prengi';
+@import 'blocks/solitions';
+@import 'blocks/tabs';
+@import 'blocks/swiper-container';
