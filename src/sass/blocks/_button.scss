@@ -3,11 +3,16 @@
 	width: 249px;
 	height: 68px;
 	background-color: #00c2f0;
+	border-radius: 8px;
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #ffffff;
+	&:hover {
+		background-color: #5966da;
+		box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.5);
+	}
 
 	&_promo {
 		margin-top: 35px;

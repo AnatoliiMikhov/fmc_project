@@ -1,0 +1,38 @@
+.advantages {
+	padding: 80px 0;
+
+	&-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 44px;
+	}
+
+	&-item {
+		width: 570px;
+		height: 355px;
+		position: relative;
+		margin: 0 auto;
+
+		&__belt {
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 156px;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 0;
+			right: 0;
+			background: rgba($color: #000000, $alpha: 0.43);
+		}
+
+		&__descr {
+			font-size: 23px;
+			line-height: 26px;
+			font-weight: 400;
+			color: #ffffff;
+			padding: 0 105px;
+			text-align: center;
+		}
+	}
+}

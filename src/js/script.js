@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 	//initialize swiper when document ready
 	let mySwiper = new Swiper('.swiper-container', {
@@ -8,5 +9,8 @@ $(document).ready(function () {
 			prevEl: '.swiper-button-prev',
 		},
 		loop: true,
+		grabCursor: true,
 	});
+
+
 });

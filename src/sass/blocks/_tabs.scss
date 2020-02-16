@@ -1,7 +1,7 @@
 .tabs {
 	margin-bottom: 36px;
 
-	&__caption {
+	&__list {
 		display: flex;
 		justify-content: space-around;
 		width: 843px;
@@ -22,14 +22,14 @@
 		font-size: 14px;
 		font-weight: 400;
 		color: #ffffff;
-		padding: 19px 25px 16px;
+		padding: 19px 25px 16px 29px;
 		border-right: 1px solid #ccc;
 
 		&:hover {
 			font-weight: 700;
 			color: #00c2f0;
 			text-decoration: none;
-			padding: 19px 24px 16px;
+			padding: 19px 24px 16px 28px;
 		}
 
 	}
