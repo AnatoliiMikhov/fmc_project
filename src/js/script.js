@@ -11,6 +11,4 @@ $(document).ready(function () {
 		loop: true,
 		grabCursor: true,
 	});
-
-
 });

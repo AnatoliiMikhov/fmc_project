@@ -2,11 +2,12 @@
 	padding-bottom: 80px;
 	position: relative;
 
-	&__title{
+	&__title {
 		position: absolute;
 		top: 80px;
 		left: 50%;
 		transform: translateX(-50%);
+		z-index: 100;
 	}
 
 	&__wrapper {
@@ -19,6 +20,7 @@
 		height: 580px;
 		display: flex;
 		align-items: center;
+		position: relative;
 
 
 		&_1 {
@@ -57,4 +59,23 @@
 		font-weight: 300;
 		color: #ffffff;
 	}
+
+	&__square {
+		width: 167px;
+		height: 167px;
+		background-color: rgba(0, 194, 240, 0.3);
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+
+		&_left {
+			right: 45px;
+		}
+
+		&_right {
+			left: 45px;
+		}
+	}
+
+
 }
