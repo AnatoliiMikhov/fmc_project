@@ -1,0 +1,13 @@
+@media (max-width: 1200px){
+	.advantages {
+		padding: 64px 0;
+		&-item{
+			width: 80%;
+			height: auto;
+			margin-bottom: 20px;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}

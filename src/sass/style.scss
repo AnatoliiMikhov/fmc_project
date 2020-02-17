@@ -8,6 +8,7 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+// blocks
 @import 'blocks/title';
 @import 'blocks/button';
 @import 'blocks/container';
@@ -22,3 +23,13 @@
 @import 'blocks/deployment';
 @import 'blocks/start';
 @import 'blocks/footer';
+// media
+@import 'blocks/container_media';
+@import 'blocks/swiper-container_media';
+@import 'blocks/with_prengi_media';
+@import 'blocks/solutions_media';
+@import 'blocks/advantages_media';
+@import 'blocks/deployment_media';
+@import 'blocks/tabs_media';
+@import 'blocks/countries_media';
+@import 'blocks/header_media';

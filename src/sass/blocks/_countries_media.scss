@@ -1,0 +1,26 @@
+@media (max-width: 991px) {
+	.countries {
+		&-item {
+			&__heading {
+				font-size: 12px;
+			}
+
+			&__text {
+				margin-left: 0;
+			}
+
+			&__img {
+				display: none;
+			}
+
+			&__address,
+			&__phone,
+			&__mail-link {
+				font-size: 10px;
+				line-height: 14px;
+			}
+		}
+
+
+	}
+}
