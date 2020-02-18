@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
 	.header {
 		flex-direction: column;
 
@@ -10,7 +10,7 @@
 			width: 100%;
 
 			&__list {
-				justify-content: space-around;
+				justify-content: space-between;
 			}
 
 			&__item {

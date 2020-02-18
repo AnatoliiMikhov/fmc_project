@@ -3,3 +3,11 @@
 		padding: 48px 0;
 	}
 }
+
+@media(max-width: 991.98px) {
+	.solutions {
+		min-height: 828px;
+		padding: 32px 0;
+		background-position-x: 75%;
+	}
+}

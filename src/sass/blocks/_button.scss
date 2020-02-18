@@ -9,6 +9,7 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #ffffff;
+
 	&:hover {
 		background-color: #226499;
 		box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.5);
@@ -17,5 +18,13 @@
 
 	&_promo {
 		margin-top: 35px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.button {
+		&_promo {
+			margin-top: 90px;
+		}
 	}
 }
