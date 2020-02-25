@@ -25,9 +25,20 @@
 				text-align: center;
 			}
 		}
-		&__square{
+
+		&__square {
 			display: none;
 		}
 	}
 
+}
+
+@media (max-width: 767.98px) {
+	.deployment {
+		&__title {
+			white-space: nowrap;
+			font-size: 32px;
+			line-height: 42px;
+		}
+	}
 }

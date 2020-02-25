@@ -1,5 +1,6 @@
 .countries {
 	padding: 20px 0 20px 0;
+
 	&-wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -35,6 +36,15 @@
 			line-height: 18px;
 			font-weight: 300;
 			color: #242424;
+
+
+		}
+
+		&__phone,
+		&__mail-link {
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 
 		&__address {

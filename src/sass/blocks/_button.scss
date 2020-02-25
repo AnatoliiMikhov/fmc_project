@@ -28,3 +28,12 @@
 		}
 	}
 }
+
+@media (max-width: 767.98px){
+	.button{
+		&_promo{
+			width: 220px;
+			height: 58px;
+		}
+	}
+}
