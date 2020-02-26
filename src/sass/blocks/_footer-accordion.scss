@@ -72,14 +72,3 @@
 		}
 	}
 }
-
-// стили для скрытия - показа элементов
-.visible-sm {
-	display: none;
-}
-
-@media(max-width: 767.98px) {
-	.visible-sm {
-		display: block;
-	}
-}

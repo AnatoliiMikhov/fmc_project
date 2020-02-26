@@ -17,7 +17,7 @@
 
 	<body>
 		<!-- countries block start-->
-		<div class="countries">
+		<div class="countries hidden-sm">
 			<div class="container">
 				<div class="countries-wrapper">
 					<div class="countries-item">
@@ -27,9 +27,7 @@
 							class="countries-item__img"
 						/>
 						<div class="countries-item__text">
-							<h2
-								class="countries-item__heading countries-item__heading_1"
-							>
+							<h2 class="countries-item__heading">
 								Ukraine
 							</h2>
 							<div class="countries-item__contact">
@@ -55,9 +53,7 @@
 							class="countries-item__img"
 						/>
 						<div class="countries-item__text">
-							<h2
-								class="countries-item__heading countries-item__heading_2"
-							>
+							<h2 class="countries-item__heading">
 								Germany
 							</h2>
 							<div class="countries-item__contact">
@@ -81,9 +77,7 @@
 							class="countries-item__img"
 						/>
 						<div class="countries-item__text">
-							<h2
-								class="countries-item__heading countries-item__heading_3"
-							>
+							<h2 class="countries-item__heading">
 								Estonia
 							</h2>
 							<div class="countries-item__contact">
@@ -106,9 +100,7 @@
 							class="countries-item__img"
 						/>
 						<div class="countries-item__text">
-							<h2
-								class="countries-item__heading countries-item__heading_4"
-							>
+							<h2 class="countries-item__heading">
 								Great Britain
 							</h2>
 							<div class="countries-item__contact">
@@ -131,9 +123,7 @@
 							class="countries-item__img"
 						/>
 						<div class="countries-item__text">
-							<h2
-								class="countries-item__heading countries-item__heading_5"
-							>
+							<h2 class="countries-item__heading">
 								Luxembourg
 							</h2>
 							<div class="countries-item__contact">
@@ -559,8 +549,8 @@
 		<!-- start section end -->
 		<!-- footer block start -->
 		<footer class="footer">
-			<div class="container">
-				<div class="footer__wrapper">
+			<div class="container-xl">
+				<div class="footer__wrapper hidden-sm">
 					<div class="footer-item">
 						<h3 class="footer-item__heading">О компании</h3>
 						<img
@@ -633,109 +623,126 @@
 				<!-- footer__wrapper class -->
 				<!-- footer-accordion block adaptive 576px to 767.98px start-->
 				<div class="footer-accordion visible-sm">
-					<div class="container">
-						<ul class="accordion">
-							<li class="accordion__item">
-								<h3 class="accordion__caption">О компании</h3>
-								<div class="accordion-panel">
-									<img
-										src="icon/footer_solution.png"
-										alt="V &amp; A Solutions logo"
-										class="accordion__img"
-									/>
-									<p class="accordion__text">
-										Lorem Ipsum - это текст-"рыба", часто
-										используемый в печати и вэб-дизайне.
-										Lorem Ipsum является стандартной "рыбой"
-										для текстов на латинице с начала XVI
-										века. В то время некий безымянный
-										печатник создал большую коллекцию
-										размеров и форм шрифтов, используя Lorem
-										Ipsum для распечатки образцов.
-									</p>
-									<p class="accordion__text">Управление задачами</p>
-								</div>
-							</li>
-							<li class="accordion__item">
-								<h3 class="accordion__caption">Модули</h3>
-								<ul
-									class="accordion-panel accordion-panel_list"
-								>
-									<li class="accordion__list-item">
-										<a href="#L">Обслуживание</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Паспорт объекта</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L"
-											>Автоматизация бизнес процессов
-											(BPM)</a
-										>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L"
-											>Проектное управление (РРМ)</a
-										>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Управление подрядчиками</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Персональный дашборд</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Управление задачами</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Управление алгоритмами</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Управление качеством</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Склад</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Service desk</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Календарь</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Prengi market</a>
-									</li>
-								</ul>
-							</li>
-							<li class="accordion__item">
-								<h3 class="accordion__caption">Отрасли</h3>
-								<ul
-									class="accordion-panel accordion-panel_list"
-								>
-									<li class="accordion__list-item">
-										<a href="#L">Промышленность</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Ритейл</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Фасилити</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">Логистика</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">IT</a>
-									</li>
-									<li class="accordion__list-item">
-										<a href="#L">HR</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
+					<ul class="accordion">
+						<li class="accordion__item">
+							<h3 class="accordion__caption">О компании</h3>
+							<div class="accordion-panel">
+								<img
+									src="icon/footer_solution.png"
+									alt="V &amp; A Solutions logo"
+									class="accordion__img"
+								/>
+								<p class="accordion__text">
+									Lorem Ipsum - это текст-"рыба", часто
+									используемый в печати и вэб-дизайне. Lorem
+									Ipsum является стандартной "рыбой" для
+									текстов на латинице с начала XVI века. В то
+									время некий безымянный печатник создал
+									большую коллекцию размеров и форм шрифтов,
+									используя Lorem Ipsum для распечатки
+									образцов.
+								</p>
+								<p class="accordion__text">
+									Управление задачами
+								</p>
+							</div>
+						</li>
+						<li class="accordion__item">
+							<h3 class="accordion__caption">Модули</h3>
+							<ul class="accordion-panel accordion-panel_list">
+								<li class="accordion__list-item">
+									<a href="#L">Обслуживание</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Паспорт объекта</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L"
+										>Автоматизация бизнес процессов (BPM)</a
+									>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Проектное управление (РРМ)</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Управление подрядчиками</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Персональный дашборд</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Управление задачами</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Управление алгоритмами</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Управление качеством</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Склад</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Service desk</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Календарь</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Prengi market</a>
+								</li>
+							</ul>
+						</li>
+						<li class="accordion__item">
+							<h3 class="accordion__caption">Отрасли</h3>
+							<ul class="accordion-panel accordion-panel_list">
+								<li class="accordion__list-item">
+									<a href="#L">Промышленность</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Ритейл</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Фасилити</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Логистика</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">IT</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">HR</a>
+								</li>
+							</ul>
+						</li>
+						<li class="accordion__item">
+							<h3 class="accordion__caption">О нас</h3>
+							<ul class="accordion-panel accordion-panel_list">
+								<li class="accordion__list-item">
+									<a href="#L">История</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Наши отношения</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Команда</a>
+								</li>
+								<li class="accordion__list-item">
+									<a href="#L">Контакты</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="accordion__item">
+							<h3 class="accordion__caption">
+								Контакты в странах.
+							</h3>
+						</li>
+					</ul>
+					<!-- accordion class ul end -->
 				</div>
-				<!-- footer-accordion class -->
+				<!-- footer-accordion class end -->
 				<div class="footer__divider"></div>
 				<div class="footer__copyright">
 					<span class="copyright-simbol">&copy;</span>
