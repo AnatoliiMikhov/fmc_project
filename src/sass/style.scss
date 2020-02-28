@@ -1,5 +1,3 @@
-@import 'libs/bootstrap-reboot.min';
-@import 'libs/bootstrap-grid.min';
 @import 'libs/fontello.scss';
 // base
 @import 'base/variables';
@@ -14,8 +12,8 @@
 @import 'blocks/button';
 @import 'blocks/container';
 @import 'blocks/countries';
-@import 'blocks/header';
 @import 'blocks/promo';
+@import 'blocks/header';
 @import 'blocks/with_prengi';
 @import 'blocks/solitions';
 @import 'blocks/tabs';
@@ -24,20 +22,22 @@
 @import 'blocks/deployment';
 @import 'blocks/start';
 @import 'blocks/footer';
-// media
+
+// media blocks
 @import 'blocks/container_media';
-@import 'blocks/swiper-container_media';
+@import 'blocks/countries_media';
+@import 'blocks/promo_media';
+@import 'blocks/header_media';
 @import 'blocks/with_prengi_media';
 @import 'blocks/solutions_media';
+@import 'blocks/tabs_media';
+@import 'blocks/swiper-container_media';
 @import 'blocks/advantages_media';
 @import 'blocks/deployment_media';
-@import 'blocks/tabs_media';
-@import 'blocks/countries_media';
-@import 'blocks/header_media';
-@import 'blocks/promo_media';
-@import 'blocks/footer_media';
-@import 'blocks/footer-accordion';
 @import 'blocks/start_media';
+@import 'blocks/footer_media';
+@import 'blocks/accordion_media';
+
 
 
 // стили для скрытия - показа элементов

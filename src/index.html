@@ -1,760 +1,724 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>FMC_project</title>
-		<link
-			href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic-ext"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/swiper/css/swiper.min.css"
-		/>
-		<link rel="stylesheet" href="css/style.min.css" />
-	</head>
 
-	<body>
-		<!-- countries block start-->
-		<div class="countries hidden-sm">
-			<div class="container">
-				<div class="countries-wrapper">
-					<div class="countries-item">
-						<img
-							src="icon/flags/ukraine.png"
-							alt="Ukraine flag"
-							class="countries-item__img"
-						/>
-						<div class="countries-item__text">
-							<h2 class="countries-item__heading">
-								Ukraine
-							</h2>
-							<div class="countries-item__contact">
-								<a
-									href="tel:+3806393007002"
-									class="countries-item__phone"
-									>tel. +38(063) 930 07 002</a
-								>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>FMC_project</title>
 
-								<a
-									href="email:hi@vasolutions.com.ua"
-									class="countries-item__mail-link"
-									>hi@vasolutions.com.ua</a
-								>
-							</div>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic-ext"
+		rel="stylesheet" />
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/3.0.5/metisMenu.min.css" />
+
+	<link rel="stylesheet" href="css/style.min.css" />
+
+	<!-- следующие 3 строки нужны для корректного отображения семантических элементов HTML5 в старых версиях Internet Explorer-->
+	<!--[if lt IE 9]>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+	<!-- countries block start-->
+	<div class="countries hidden-sm">
+		<div class="container">
+			<div class="countries-wrapper">
+				<div class="countries-item">
+					<img src="icon/flags/ukraine.png" alt="Ukraine flag" class="countries-item__img" />
+					<div class="countries-item__text">
+						<h2 class="countries-item__heading">
+							Ukraine
+						</h2>
+						<div class="countries-item__contact">
+							<a href="tel:+3806393007002" class="countries-item__phone">tel. +38(063) 930 07 002</a>
+
+							<a href="email:hi@vasolutions.com.ua" class="countries-item__mail-link">hi@vasolutions.com.ua</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="countries-item">
-						<img
-							src="icon/flags/germany.png"
-							alt="Germany flag"
-							class="countries-item__img"
-						/>
-						<div class="countries-item__text">
-							<h2 class="countries-item__heading">
-								Germany
-							</h2>
-							<div class="countries-item__contact">
-								<address class="countries-item__address">
-									Trierer Strabe 35, 54329 Konz
-								</address>
-								<a
-									href="tel:+352661880305"
-									class="countries-item__phone"
-								>
-									tel. +352 661 88 03 05</a
-								>
-							</div>
+				<div class="countries-item">
+					<img src="icon/flags/germany.png" alt="Germany flag" class="countries-item__img" />
+					<div class="countries-item__text">
+						<h2 class="countries-item__heading">
+							Germany
+						</h2>
+						<div class="countries-item__contact">
+							<address class="countries-item__address">
+								Trierer Strabe 35, 54329 Konz
+							</address>
+							<a href="tel:+352661880305" class="countries-item__phone">
+								tel. +352 661 88 03 05</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="countries-item">
-						<img
-							src="icon/flags/estonia.png"
-							alt="Estonia flag"
-							class="countries-item__img"
-						/>
-						<div class="countries-item__text">
-							<h2 class="countries-item__heading">
-								Estonia
-							</h2>
-							<div class="countries-item__contact">
-								<address class="countries-item__address">
-									K. Karbery 16/27, 13812 Tallinn
-								</address>
-								<a
-									href="tel:+352661880305"
-									class="countries-item__phone"
-									>tel. +352 661 88 03 05</a
-								>
-							</div>
+				<div class="countries-item">
+					<img src="icon/flags/estonia.png" alt="Estonia flag" class="countries-item__img" />
+					<div class="countries-item__text">
+						<h2 class="countries-item__heading">
+							Estonia
+						</h2>
+						<div class="countries-item__contact">
+							<address class="countries-item__address">
+								K. Karbery 16/27, 13812 Tallinn
+							</address>
+							<a href="tel:+352661880305" class="countries-item__phone">tel. +352 661 88 03 05</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="countries-item">
-						<img
-							src="icon/flags/great_brit.png"
-							alt="Great Britain flag"
-							class="countries-item__img"
-						/>
-						<div class="countries-item__text">
-							<h2 class="countries-item__heading">
-								Great Britain
-							</h2>
-							<div class="countries-item__contact">
-								<address class="countries-item__address">
-									E20LP, Golden vc House, London
-								</address>
-								<a
-									href="tel:+447501095529"
-									class="countries-item__phone"
-									>tel. +44 750 109 55 29</a
-								>
-							</div>
+				<div class="countries-item">
+					<img src="icon/flags/great_brit.png" alt="Great Britain flag" class="countries-item__img" />
+					<div class="countries-item__text">
+						<h2 class="countries-item__heading">
+							Great Britain
+						</h2>
+						<div class="countries-item__contact">
+							<address class="countries-item__address">
+								E20LP, Golden vc House, London
+							</address>
+							<a href="tel:+447501095529" class="countries-item__phone">tel. +44 750 109 55 29</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="countries-item">
-						<img
-							src="icon/flags/luxembourg.png"
-							alt="luxembourg flag"
-							class="countries-item__img"
-						/>
-						<div class="countries-item__text">
-							<h2 class="countries-item__heading">
-								Luxembourg
-							</h2>
-							<div class="countries-item__contact">
-								<address class="countries-item__address">
-									2,Rue d`Avalon, L-1159 Luxembourg
-								</address>
-								<a
-									href="tel:+352661880305"
-									class="countries-item__phone"
-									>tel. +352 661 88 03 05</a
-								>
-							</div>
+				<div class="countries-item">
+					<img src="icon/flags/luxembourg.png" alt="luxembourg flag" class="countries-item__img" />
+					<div class="countries-item__text">
+						<h2 class="countries-item__heading">
+							Luxembourg
+						</h2>
+						<div class="countries-item__contact">
+							<address class="countries-item__address">
+								2,Rue d`Avalon, L-1159 Luxembourg
+							</address>
+							<a href="tel:+352661880305" class="countries-item__phone">tel. +352 661 88 03 05</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- countries block end-->
-		<!-- promo section start-->
-		<section class="promo">
-			<div class="container">
-				<h2 class="semantic-stub">semantic stub</h2>
-				<header class="header">
-					<div class="header__logo">
-						<a href="#">
-							<img
-								src="img/logo/logo.png"
-								alt="logo"
-								class="header__logo-img"
-							/>
-						</a>
-					</div>
-					<nav class="header-nav">
-						<ul class="header-nav__list">
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link">Главная</a>
-							</li>
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link">Модули</a>
-							</li>
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link">Отрасли</a>
-							</li>
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link">О нас</a>
-							</li>
-							<li class="header-nav__item">
-								<a href="#" class="header-nav__link"
-									>Наши обязательства</a
-								>
-							</li>
-						</ul>
-					</nav>
-				</header>
-				<h1 class="promo-text__heading md_visible">
-					Управляй своим бизнесом<br />
-					через Smartphone
-				</h1>
-				<div class="promo-content">
-					<div class="promo-text">
-						<h1 class="promo-text__heading md_hidden">
-							Управляй своим бизнесом<br />
-							через Smartphone
-						</h1>
-						<div class="promo-text__descr">
-							<span>PRENGI</span> - Платформа для прозрачного
-							управления бизнесом
-						</div>
-						<button class="button button_promo">
-							Получить доступ
-						</button>
-					</div>
-					<div class="promo-content__img">
-						<img
-							src="img/promo/mobile_promo.png"
-							alt="Mobile image"
-						/>
-					</div>
+	</div>
+	<!-- countries block end-->
+	<!-- promo section start-->
+	<section class="promo">
+		<div class="container">
+			<h2 class="semantic-stub">semantic stub</h2>
+			<header class="header">
+				<div class="header__logo">
+					<a href="#">
+						<img src="img/logo/logo.png" alt="logo" class="header__logo-img" />
+					</a>
 				</div>
-			</div>
-		</section>
-		<!-- promo section end-->
-		<!-- with-prengi section start -->
-		<section class="with-prengi">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="with-prengi-item">
-							<div class="with-prengi__img">
-								<img
-									src="img/with-prengi/with-prengi_1.png"
-									alt="#"
-								/>
-							</div>
-							<div class="with-prengi__descr">
-								Нет оперативности в принятии решений?
-							</div>
-							<div class="with-prengi__icon transform45deg">
-								<i class="icon-help-circled"></i>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="with-prengi-item">
-							<div class="with-prengi__img">
-								<img
-									src="img/with-prengi/with-prengi_2.png"
-									alt="#"
-								/>
-							</div>
-							<div class="with-prengi__descr">
-								Нет учета и контроля обслуживания?
-							</div>
-							<div class="with-prengi__icon transform45deg">
-								<i class="icon-help-circled"></i>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="with-prengi-item">
-							<div class="with-prengi__img">
-								<img
-									src="img/with-prengi/with-prengi_3.png"
-									alt="#"
-								/>
-							</div>
-							<div class="with-prengi__descr">
-								Сложно строить прогнозы и анализировать данные?
-							</div>
-							<div class="with-prengi__icon transform45deg">
-								<i class="icon-help-circled"></i>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="with-prengi-divider">
-					<img
-						src="icon/arrow_down_img.png"
-						alt="arrow-down"
-						class="with-prengi__arrow"
-					/>
-					<h2 class="with-prengi__heading">С PRENGI</h2>
-				</div>
-
-				<div class="row">
-					<div class="col">
-						<div class="with-prengi-item">
-							<div class="with-prengi__img">
-								<img
-									src="img/with-prengi/with-prengi_4.png"
-									alt="#"
-								/>
-							</div>
-							<div class="with-prengi__descr">
-								Все затраты спланированы и расписаны
-							</div>
-							<div class="with-prengi__icon check-icon">
-								<i class="icon-ok-circled"></i>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="with-prengi-item">
-							<div class="with-prengi__img">
-								<img
-									src="img/with-prengi/with-prengi_5.png"
-									alt="#"
-								/>
-							</div>
-							<div class="with-prengi__descr">
-								Корректная аналитика данных online
-							</div>
-							<div class="with-prengi__icon check-icon">
-								<i class="icon-ok-circled"></i>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="with-prengi-item">
-							<div class="with-prengi__img">
-								<img
-									src="img/with-prengi/with-prengi_6.png"
-									alt="#"
-								/>
-							</div>
-							<div class="with-prengi__descr">
-								Простая интеграция с любым Вашим ПО
-							</div>
-							<div class="with-prengi__icon check-icon">
-								<i class="icon-ok-circled"></i>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- with-prengi section end -->
-		<!-- solution section start -->
-		<section class="solutions">
-			<div class="container">
-				<h2 class="title title_white">
-					Prengi предоставляет экспертные решения<br />
-					для Вашей отрасли
-				</h2>
-
-				<div class="tabs">
-					<ul class="tabs__list">
-						<li>
-							<a href="#L" class="tabs__link"
-								>Prengi Production</a
-							>
+				<nav class="header-nav">
+					<ul class="header-nav__list">
+						<li class="header-nav__item">
+							<a href="#" class="header-nav__link">Главная</a>
 						</li>
-						<li>
-							<a href="#L" class="tabs__link">Prengi FMC</a>
+						<li class="header-nav__item">
+							<a href="#" class="header-nav__link">Модули</a>
 						</li>
-						<li>
-							<a href="#L" class="tabs__link"
-								>Prengi Mallz Retail</a
-							>
+						<li class="header-nav__item">
+							<a href="#" class="header-nav__link">Отрасли</a>
 						</li>
-						<li>
-							<a href="#L" class="tabs__link">Prengi Logistic</a>
+						<li class="header-nav__item">
+							<a href="#" class="header-nav__link">О нас</a>
 						</li>
-						<li><a href="#L" class="tabs__link">Prengi IT</a></li>
-						<li><a href="#L" class="tabs__link">Prengi HR</a></li>
+						<li class="header-nav__item">
+							<a href="#" class="header-nav__link">Наши обязательства</a>
+						</li>
 					</ul>
-				</div>
-				<!-- .tabs -->
-				<!-- Slider main container -->
-				<div class="swiper-container">
-					<!-- Additional required wrapper -->
-					<div class="swiper-wrapper">
-						<!-- Slides -->
-						<div class="swiper-slide">
-							<img
-								src="img/solutions/macbook_air.png"
-								alt="macbook-pro"
-							/>
-						</div>
-						<div class="swiper-slide">
-							<img
-								src="img/solutions/macbook_air.png"
-								alt="macbook-pro"
-							/>
-						</div>
-						<div class="swiper-slide">
-							<img
-								src="img/solutions/macbook_air.png"
-								alt="macbook-pro"
-							/>
-						</div>
-						<div class="swiper-slide">
-							<img
-								src="img/solutions/macbook_air.png"
-								alt="macbook-pro"
-							/>
-						</div>
-						<div class="swiper-slide">
-							<img
-								src="img/solutions/macbook_air.png"
-								alt="macbook-pro"
-							/>
-						</div>
-						<div class="swiper-slide">
-							<img
-								src="img/solutions/macbook_air.png"
-								alt="macbook-pro"
-							/>
-						</div>
+				</nav>
+			</header>
+			<h1 class="promo-text__heading md_visible">
+				Управляй своим бизнесом<br />
+				через Smartphone
+			</h1>
+			<div class="promo-content">
+				<div class="promo-text">
+					<h1 class="promo-text__heading md_hidden">
+						Управляй своим бизнесом<br />
+						через Smartphone
+					</h1>
+					<div class="promo-text__descr">
+						<span>PRENGI</span> - Платформа для прозрачного
+						управления бизнесом
 					</div>
-					<!-- If we need pagination -->
-					<!-- <div class="swiper-pagination"></div> -->
-
-					<!-- If we need navigation buttons -->
-					<div class="swiper-button-prev"></div>
-					<div class="swiper-button-next"></div>
-
-					<!-- If we need scrollbar -->
-					<!-- <div class="swiper-scrollbar"></div> -->
+					<button class="button button_promo">
+						Получить доступ
+					</button>
+				</div>
+				<div class="promo-content__img">
+					<img src="img/promo/mobile_promo.png" alt="Mobile image" />
 				</div>
 			</div>
-		</section>
-		<!-- solution section end -->
-		<!-- advantages section start-->
-		<section class="advantages">
-			<div class="container">
-				<h2 class="title">
-					Преимущества Prengi для<br />
-					Вашей отрасли
-				</h2>
-				<div class="advantages-wrapper">
-					<div class="advantages-item">
-						<img
-							src="img/advantages/advantages_1.jpg"
-							alt="advantages"
-						/>
-						<div class="advantages-item__belt">
-							<div class="advantages-item__descr">
-								Возможность внедрения и тестирования в реальном
-								времени
-							</div>
+		</div>
+	</section>
+	<!-- promo section end-->
+	<!-- with-prengi section start -->
+	<section class="with-prengi">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="with-prengi-item">
+						<div class="with-prengi__img">
+							<img src="img/with-prengi/with-prengi_1.png" alt="#" />
+						</div>
+						<div class="with-prengi__descr">
+							Нет оперативности в принятии решений?
+						</div>
+						<div class="with-prengi__icon transform45deg">
+							<i class="icon-help-circled"></i>
 						</div>
 					</div>
-					<div class="advantages-item">
-						<img
-							src="img/advantages/advantages_2.jpg"
-							alt="advantages"
-						/>
-						<div class="advantages-item__belt">
-							<div class="advantages-item__descr">
-								Система “Intellect”, учет уровня доступов
-							</div>
+				</div>
+				<div class="col">
+					<div class="with-prengi-item">
+						<div class="with-prengi__img">
+							<img src="img/with-prengi/with-prengi_2.png" alt="#" />
+						</div>
+						<div class="with-prengi__descr">
+							Нет учета и контроля обслуживания?
+						</div>
+						<div class="with-prengi__icon transform45deg">
+							<i class="icon-help-circled"></i>
 						</div>
 					</div>
-					<div class="advantages-item">
-						<img
-							src="img/advantages/advantages_3.jpg"
-							alt="advantages"
-						/>
-						<div class="advantages-item__belt">
-							<div class="advantages-item__descr">
-								Возможность использовать из любой точки мира с
-								любого устройства
-							</div>
+				</div>
+				<div class="col">
+					<div class="with-prengi-item">
+						<div class="with-prengi__img">
+							<img src="img/with-prengi/with-prengi_3.png" alt="#" />
 						</div>
-					</div>
-					<div class="advantages-item">
-						<img
-							src="img/advantages/advantages_4.jpg"
-							alt="advantages"
-						/>
-						<div class="advantages-item__belt">
-							<div class="advantages-item__descr">
-								Нет необходимости установки и стационарной
-								работы программиста
-							</div>
+						<div class="with-prengi__descr">
+							Сложно строить прогнозы и анализировать данные?
 						</div>
-					</div>
-					<div class="advantages-item">
-						<img
-							src="img/advantages/advantages_5.jpg"
-							alt="advantages"
-						/>
-						<div class="advantages-item__belt">
-							<div class="advantages-item__descr">
-								“Живые”<br />
-								бизнес-процессы
-							</div>
-						</div>
-					</div>
-					<div class="advantages-item">
-						<img
-							src="img/advantages/advantages_6.jpg"
-							alt="advantages"
-						/>
-						<div class="advantages-item__belt">
-							<div class="advantages-item__descr">
-								Никаких предоплат, оплата после старта
-							</div>
+						<div class="with-prengi__icon transform45deg">
+							<i class="icon-help-circled"></i>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- advantages section end-->
-		<!-- deployment section start-->
-		<section class="deployment">
-			<h2 class="title title_white deployment__title">
-				Варианты развертывания<br />
-				Ваших данных
+			<div class="with-prengi-divider">
+				<img src="icon/arrow_down_img.png" alt="arrow-down" class="with-prengi__arrow" />
+				<h2 class="with-prengi__heading">С PRENGI</h2>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<div class="with-prengi-item">
+						<div class="with-prengi__img">
+							<img src="img/with-prengi/with-prengi_4.png" alt="#" />
+						</div>
+						<div class="with-prengi__descr">
+							Все затраты спланированы и расписаны
+						</div>
+						<div class="with-prengi__icon check-icon">
+							<i class="icon-ok-circled"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="with-prengi-item">
+						<div class="with-prengi__img">
+							<img src="img/with-prengi/with-prengi_5.png" alt="#" />
+						</div>
+						<div class="with-prengi__descr">
+							Корректная аналитика данных online
+						</div>
+						<div class="with-prengi__icon check-icon">
+							<i class="icon-ok-circled"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="with-prengi-item">
+						<div class="with-prengi__img">
+							<img src="img/with-prengi/with-prengi_6.png" alt="#" />
+						</div>
+						<div class="with-prengi__descr">
+							Простая интеграция с любым Вашим ПО
+						</div>
+						<div class="with-prengi__icon check-icon">
+							<i class="icon-ok-circled"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- with-prengi section end -->
+	<!-- solution section start -->
+	<section class="solutions">
+		<div class="container">
+			<h2 class="title title_white">
+				Prengi предоставляет экспертные решения<br />
+				для Вашей отрасли
 			</h2>
-			<div class="deployment__wrapper">
-				<div class="deployment__item deployment__item_1">
-					<div class="deployment__text deployment__text_right">
-						<div class="deployment__subtitle">
-							Облачное хранилище
-						</div>
-						<div class="deployment__descr">
-							Это выделенное пользователю пространство на
-							жестком<br />
-							диске сервера, находящегося в Интернете.
-						</div>
-					</div>
-					<div
-						class="deployment__square deployment__square_left"
-					></div>
-				</div>
-				<!--deployment__item deployment__item_1-->
 
-				<div class="deployment__item deployment__item_2">
-					<div class="deployment__text">
-						<div class="deployment__subtitle">
-							Размещение на сервере
-						</div>
-						<div class="deployment__descr">
-							Услуга аренды пространства в центре обработки
-							данных<br />
-							(колокация серверов) предназначена для клиентов
-						</div>
-					</div>
-					<div
-						class="deployment__square deployment__square_right"
-					></div>
-				</div>
-				<!--deployment__item deployment__item_2-->
+			<div class="tabs">
+				<ul class="tabs__list">
+					<li>
+						<a href="#L" class="tabs__link">Prengi Production</a>
+					</li>
+					<li>
+						<a href="#L" class="tabs__link">Prengi FMC</a>
+					</li>
+					<li>
+						<a href="#L" class="tabs__link">Prengi Mallz Retail</a>
+					</li>
+					<li>
+						<a href="#L" class="tabs__link">Prengi Logistic</a>
+					</li>
+					<li><a href="#L" class="tabs__link">Prengi IT</a></li>
+					<li><a href="#L" class="tabs__link">Prengi HR</a></li>
+				</ul>
 			</div>
-			<!--deployment__wrapper-->
-		</section>
-		<!-- deployment section end-->
-		<!-- start section start -->
-		<section class="start">
-			<div class="start-wrapper">
-				<div class="start__img">
-					<img src="img/start/start.png" alt="Start" />
+			<!-- .tabs -->
+			<!-- Slider main container -->
+			<div class="swiper-container">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">
+						<img src="img/solutions/macbook_air.png" alt="macbook-pro" />
+					</div>
+					<div class="swiper-slide">
+						<img src="img/solutions/macbook_air.png" alt="macbook-pro" />
+					</div>
+					<div class="swiper-slide">
+						<img src="img/solutions/macbook_air.png" alt="macbook-pro" />
+					</div>
+					<div class="swiper-slide">
+						<img src="img/solutions/macbook_air.png" alt="macbook-pro" />
+					</div>
+					<div class="swiper-slide">
+						<img src="img/solutions/macbook_air.png" alt="macbook-pro" />
+					</div>
+					<div class="swiper-slide">
+						<img src="img/solutions/macbook_air.png" alt="macbook-pro" />
+					</div>
 				</div>
-				<h2 class="title start__title">
-					Приступить очень просто!<br />
-					Нужно получить доступ и начать работу!
-				</h2>
-				<button class="button">связаться с нами</button>
-			</div>
-		</section>
-		<!-- start section end -->
-		<!-- footer block start -->
-		<footer class="footer">
-			<div class="container-xl">
-				<div class="footer__wrapper hidden-sm">
-					<div class="footer-item">
-						<h3 class="footer-item__heading">О компании</h3>
-						<img
-							src="icon/footer_solution.png"
-							alt="V &amp; A Solutions logo"
-						/>
-						<div>
-							Lorem Ipsum - это текст-"рыба", часто используемый в
-							печати и вэб-дизайне. Lorem Ipsum является
-							стандартной "рыбой" для текстов на латинице с начала
-							XVI века. В то время некий безымянный печатник
-							создал большую коллекцию размеров и форм шрифтов,
-							используя Lorem Ipsum для распечатки образцов.
-						</div>
-						<div>Управление задачами</div>
-					</div>
-					<!-- footer-item class-->
-					<div class="footer-item">
-						<ul class="footer-item__list">
-							<li>
-								<h3 class="footer-item__heading">Модули</h3>
-							</li>
-							<li><a href="#L">Обслуживание</a></li>
-							<li><a href="#L">Паспорт объекта</a></li>
-							<li>
-								<a href="#L"
-									>Автоматизация бизнес процессов (BPM)</a
-								>
-							</li>
-							<li><a href="#L">Проектное управление (РРМ)</a></li>
-							<li><a href="#L">Управление подрядчиками</a></li>
-							<li><a href="#L">Персональный дашборд</a></li>
-							<li><a href="#L">Управление задачами</a></li>
-							<li><a href="#L">Управление алгоритмами</a></li>
-							<li><a href="#L">Управление качеством</a></li>
-							<li><a href="#L">Склад</a></li>
-							<li><a href="#L">Service desk</a></li>
-							<li><a href="#L">Календарь</a></li>
-							<li><a href="#L">Prengi market</a></li>
-						</ul>
-					</div>
-					<!-- footer-item class-->
-					<div class="footer-item">
-						<ul class="footer-item__list">
-							<li>
-								<h3 class="footer-item__heading">Отрасли</h3>
-							</li>
-							<li><a href="#L">Промышленность</a></li>
-							<li><a href="#L">Ритейл</a></li>
-							<li><a href="#L">Фасилити</a></li>
-							<li><a href="#L">Логистика</a></li>
-							<li><a href="#L">IT</a></li>
-							<li><a href="#L">HR</a></li>
-						</ul>
-					</div>
-					<!-- footer-item class-->
-					<div class="footer-item">
-						<ul class="footer-item__list">
-							<li>
-								<h3 class="footer-item__heading">О нас</h3>
-							</li>
-							<li><a href="#L">История</a></li>
-							<li><a href="#L">Наши отношения</a></li>
-							<li><a href="#L">Команда</a></li>
-							<li><a href="#L">Контакты</a></li>
-						</ul>
-					</div>
-					<!-- footer-item class-->
-				</div>
-				<!-- footer__wrapper class -->
-				<!-- footer-accordion block adaptive 576px to 767.98px start-->
-				<div class="footer-accordion visible-sm">
-					<ul class="accordion">
-						<li class="accordion__item">
-							<h3 class="accordion__caption">О компании</h3>
-							<div class="accordion-panel">
-								<img
-									src="icon/footer_solution.png"
-									alt="V &amp; A Solutions logo"
-									class="accordion__img"
-								/>
-								<p class="accordion__text">
-									Lorem Ipsum - это текст-"рыба", часто
-									используемый в печати и вэб-дизайне. Lorem
-									Ipsum является стандартной "рыбой" для
-									текстов на латинице с начала XVI века. В то
-									время некий безымянный печатник создал
-									большую коллекцию размеров и форм шрифтов,
-									используя Lorem Ipsum для распечатки
-									образцов.
-								</p>
-								<p class="accordion__text">
-									Управление задачами
-								</p>
-							</div>
-						</li>
-						<li class="accordion__item">
-							<h3 class="accordion__caption">Модули</h3>
-							<ul class="accordion-panel accordion-panel_list">
-								<li class="accordion__list-item">
-									<a href="#L">Обслуживание</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Паспорт объекта</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L"
-										>Автоматизация бизнес процессов (BPM)</a
-									>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Проектное управление (РРМ)</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Управление подрядчиками</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Персональный дашборд</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Управление задачами</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Управление алгоритмами</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Управление качеством</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Склад</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Service desk</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Календарь</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Prengi market</a>
-								</li>
-							</ul>
-						</li>
-						<li class="accordion__item">
-							<h3 class="accordion__caption">Отрасли</h3>
-							<ul class="accordion-panel accordion-panel_list">
-								<li class="accordion__list-item">
-									<a href="#L">Промышленность</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Ритейл</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Фасилити</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Логистика</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">IT</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">HR</a>
-								</li>
-							</ul>
-						</li>
-						<li class="accordion__item">
-							<h3 class="accordion__caption">О нас</h3>
-							<ul class="accordion-panel accordion-panel_list">
-								<li class="accordion__list-item">
-									<a href="#L">История</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Наши отношения</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Команда</a>
-								</li>
-								<li class="accordion__list-item">
-									<a href="#L">Контакты</a>
-								</li>
-							</ul>
-						</li>
+				<!-- If we need pagination -->
+				<!-- <div class="swiper-pagination"></div> -->
 
-						<li class="accordion__item">
-							<h3 class="accordion__caption">
-								Контакты в странах.
-							</h3>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+
+				<!-- If we need scrollbar -->
+				<!-- <div class="swiper-scrollbar"></div> -->
+			</div>
+		</div>
+	</section>
+	<!-- solution section end -->
+	<!-- advantages section start-->
+	<section class="advantages">
+		<div class="container">
+			<h2 class="title">
+				Преимущества Prengi для<br />
+				Вашей отрасли
+			</h2>
+			<div class="advantages-wrapper">
+				<div class="advantages-item">
+					<img src="img/advantages/advantages_1.jpg" alt="advantages" />
+					<div class="advantages-item__belt">
+						<div class="advantages-item__descr">
+							Возможность внедрения и тестирования в реальном
+							времени
+						</div>
+					</div>
+				</div>
+				<div class="advantages-item">
+					<img src="img/advantages/advantages_2.jpg" alt="advantages" />
+					<div class="advantages-item__belt">
+						<div class="advantages-item__descr">
+							Система “Intellect”, учет уровня доступов
+						</div>
+					</div>
+				</div>
+				<div class="advantages-item">
+					<img src="img/advantages/advantages_3.jpg" alt="advantages" />
+					<div class="advantages-item__belt">
+						<div class="advantages-item__descr">
+							Возможность использовать из любой точки мира с
+							любого устройства
+						</div>
+					</div>
+				</div>
+				<div class="advantages-item">
+					<img src="img/advantages/advantages_4.jpg" alt="advantages" />
+					<div class="advantages-item__belt">
+						<div class="advantages-item__descr">
+							Нет необходимости установки и стационарной
+							работы программиста
+						</div>
+					</div>
+				</div>
+				<div class="advantages-item">
+					<img src="img/advantages/advantages_5.jpg" alt="advantages" />
+					<div class="advantages-item__belt">
+						<div class="advantages-item__descr">
+							“Живые”<br />
+							бизнес-процессы
+						</div>
+					</div>
+				</div>
+				<div class="advantages-item">
+					<img src="img/advantages/advantages_6.jpg" alt="advantages" />
+					<div class="advantages-item__belt">
+						<div class="advantages-item__descr">
+							Никаких предоплат, оплата после старта
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- advantages section end-->
+	<!-- deployment section start-->
+	<section class="deployment">
+		<h2 class="title title_white deployment__title">
+			Варианты развертывания<br />
+			Ваших данных
+		</h2>
+		<div class="deployment__wrapper">
+			<div class="deployment__item deployment__item_1">
+				<div class="deployment__text deployment__text_right">
+					<div class="deployment__subtitle">
+						Облачное хранилище
+					</div>
+					<div class="deployment__descr">
+						Это выделенное пользователю пространство на
+						жестком<br />
+						диске сервера, находящегося в Интернете.
+					</div>
+				</div>
+				<div class="deployment__square deployment__square_left"></div>
+			</div>
+			<!--deployment__item deployment__item_1-->
+
+			<div class="deployment__item deployment__item_2">
+				<div class="deployment__text">
+					<div class="deployment__subtitle">
+						Размещение на сервере
+					</div>
+					<div class="deployment__descr">
+						Услуга аренды пространства в центре обработки
+						данных<br />
+						(колокация серверов) предназначена для клиентов
+					</div>
+				</div>
+				<div class="deployment__square deployment__square_right"></div>
+			</div>
+			<!--deployment__item deployment__item_2-->
+		</div>
+		<!--deployment__wrapper-->
+	</section>
+	<!-- deployment section end-->
+	<!-- start section start -->
+	<section class="start">
+		<div class="start-wrapper">
+			<div class="start__img">
+				<img src="img/start/start.png" alt="Start" />
+			</div>
+			<h2 class="title start__title">
+				Приступить очень просто!<br />
+				Нужно получить доступ и начать работу!
+			</h2>
+			<button class="button">связаться с нами</button>
+		</div>
+	</section>
+	<!-- start section end -->
+	<!-- footer block start -->
+	<footer class="footer">
+		<div class="container-xl">
+			<div class="footer__wrapper hidden-sm">
+				<div class="footer-item">
+					<h3 class="footer-item__heading">О компании</h3>
+					<img src="icon/footer_solution.png" alt="V &amp; A Solutions logo" />
+					<div>
+						Lorem Ipsum - это текст-"рыба", часто используемый в
+						печати и вэб-дизайне. Lorem Ipsum является
+						стандартной "рыбой" для текстов на латинице с начала
+						XVI века. В то время некий безымянный печатник
+						создал большую коллекцию размеров и форм шрифтов,
+						используя Lorem Ipsum для распечатки образцов.
+					</div>
+					<div>Управление задачами</div>
+				</div>
+				<!-- footer-item class-->
+				<div class="footer-item">
+					<ul class="footer-item__list">
+						<li>
+							<h3 class="footer-item__heading">Модули</h3>
 						</li>
+						<li><a href="#L">Обслуживание</a></li>
+						<li><a href="#L">Паспорт объекта</a></li>
+						<li>
+							<a href="#L">Автоматизация бизнес процессов (BPM)</a>
+						</li>
+						<li><a href="#L">Проектное управление (РРМ)</a></li>
+						<li><a href="#L">Управление подрядчиками</a></li>
+						<li><a href="#L">Персональный дашборд</a></li>
+						<li><a href="#L">Управление задачами</a></li>
+						<li><a href="#L">Управление алгоритмами</a></li>
+						<li><a href="#L">Управление качеством</a></li>
+						<li><a href="#L">Склад</a></li>
+						<li><a href="#L">Service desk</a></li>
+						<li><a href="#L">Календарь</a></li>
+						<li><a href="#L">Prengi market</a></li>
 					</ul>
-					<!-- accordion class ul end -->
 				</div>
-				<!-- footer-accordion class end -->
-				<div class="footer__divider"></div>
-				<div class="footer__copyright">
-					<span class="copyright-simbol">&copy;</span>
-					Prengi Ink. 2008-2017 Все права защищены.
+				<!-- footer-item class-->
+				<div class="footer-item">
+					<ul class="footer-item__list">
+						<li>
+							<h3 class="footer-item__heading">Отрасли</h3>
+						</li>
+						<li><a href="#L">Промышленность</a></li>
+						<li><a href="#L">Ритейл</a></li>
+						<li><a href="#L">Фасилити</a></li>
+						<li><a href="#L">Логистика</a></li>
+						<li><a href="#L">IT</a></li>
+						<li><a href="#L">HR</a></li>
+					</ul>
 				</div>
+				<!-- footer-item class-->
+				<div class="footer-item">
+					<ul class="footer-item__list">
+						<li>
+							<h3 class="footer-item__heading">О нас</h3>
+						</li>
+						<li><a href="#L">История</a></li>
+						<li><a href="#L">Наши отношения</a></li>
+						<li><a href="#L">Команда</a></li>
+						<li><a href="#L">Контакты</a></li>
+					</ul>
+				</div>
+				<!-- footer-item class-->
 			</div>
-		</footer>
-		<!-- footer block end -->
+			<!-- footer__wrapper class end -->
+			<!-- accordion footer block start -->
+			<!-- accordion plagin source https://www.jqueryscript.net/menu/jQuery-Accordion-Menu-Plugin-For-Bootstrap-3-metisMenu.html -->
+			<div class="accordion visible-sm">
+				<ul id="menu" class="accordion-list-level-1">
+					<!-- accordion-item about company -->
+					<li class="accordion-item">
+						<a href="#" class="accordion__link accordion__caption">О компании</a>
+						<ul class="accordion-list-level-2">
+							<li>
+								<img src="icon/footer_solution.png" alt="V &amp; A Solutions logo" class="accordion__img" />
+							</li>
+							<li>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At architecto libero vel nesciunt quia,
+									deserunt, similique dolores consequuntur sed accusamus quaerat. Quis eligendi voluptatem sed fugit.
+									Deserunt sit veritatis porro ratione accusantium illo, incidunt fugiat numquam culpa, aliquid iste
+									doloremque voluptas at earum ullam molestiae, consequuntur enim. Repellat omnis accusantium atque
+									dolores molestiae, deserunt reprehenderit. Necessitatibus dignissimos provident, iure laboriosam
+									placeat ullam dolorum distinctio mollitia libero voluptatem atque facilis nulla porro, ad nostrum
+									totam quam voluptates repellendus corporis nisi temporibus dolor? Enim iusto voluptatem vitae ipsa
+									reprehenderit facilis sunt dicta odit sed voluptates quidem, eveniet culpa quis maxime mollitia
+									recusandae!</p>
+							</li>
+							<li>
+								<p>Our Motto:</p>
+							</li>
+							<li>
+								<p>&#8220; Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, laboriosam. &#8221;</p>
+							</li>
+						</ul>
+					</li>
+					<!-- accordion-item about company end-->
+					<!-- accordion item modules-->
+					<li class="accordion-item">
+						<a href="#" class="accordion__link accordion__caption">Модули</a>
+						<ul class="accordion-list-level-2">
+							<li>
+								<a href="#" class="accordion__link">Обслуживание</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Паспорт объекта</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Автоматизация бизнес процессов (BPM)</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Проектное управление (РРМ)</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Управление подрядчиками</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Персональный дашборд</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Управление задачами</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Управление алгоритмами</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Управление качеством</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Склад</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Service desk</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Календарь</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Prengi market</a>
+							</li>
+						</ul>
+					</li>
+					<!-- accordion item modules end -->
+					<!-- accordion-item department -->
+					<li class="accordion-item">
+						<a href="#" class="accordion__link accordion__caption">Отрасли</a>
+						<ul class="accordion-list-level-2">
+							<li>
+								<a href="#" class="accordion__link">Промышленность</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Ритейл</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Фасилити</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Логистика</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">IT</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">HR</a>
+							</li>
+						</ul>
+					</li>
+					<!-- accordion-item department end -->
+					<!-- accordion-item about us -->
+					<li class="accordion-item">
+						<a href="#" class="accordion__link accordion__caption">О нас</a>
+						<ul class="accordion-list-level-2">
+							<li>
+								<a href="#" class="accordion__link">История</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Наши отношения</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Команда</a>
+							</li>
+							<li>
+								<a href="#" class="accordion__link">Контакты</a>
+							</li>
+						</ul>
+					</li>
+					<!-- accordion-item about us end -->
+					<!-- accordion-item countries -->
+					<li class="accordion-item">
+						<a href="#" class="accordion__link accordion__caption">Контакты в странах</a>
+						<ul class="accordion-list-level-2">
+							<li>
+								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Ukraine</a>
+								<ul class="accordion-list-level-3">
+									<li>
+										<a href="tel:+3806393007002" class="accordion__link">tel: +38(063) 930 07 002</a>
+									</li>
+									<li>
+										<a href="email:hi@vasolutions.com.ua" class="accordion__link">email: hi@vasolutions.com.ua</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Germany</a>
+								<ul class="accordion-list-level-3">
+									<li>
+										<a href="#" class="accordion__link">Trierer Strabe 35, 54329
+											Konz</a>
+									</li>
+									<li>
+										<a href="tel:+352661880305" class="accordion__link">
+											tel. +352 661 88 03 05</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Estonia</a>
+								<ul class="accordion-list-level-3">
+									<li>
+										<p>
+											K. Karbery 16/27, 13812 Tallinn
+										</p>
+									</li>
+									<a href="tel:+352661880305" class="accordion__link">tel. +352 661 88 03 05</a>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Great Britain</a>
+								<ul class="accordion-list-level-3">
+									<li>
+										<p>
+											E20LP, Golden vc House, London
+										</p>
+									</li>
+									<a href="tel:+447501095529" class="accordion__link">tel. +44 750 109 55 29</a>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Luxembourg</a>
+								<ul class="accordion-list-level-3">
+									<li>
+										<p>
+											2,Rue d`Avalon, L-1159
+											Luxembourg
+										</p>
+									</li>
+									<a href="tel:+352661880305" class="accordion__link">tel. +352 661 88 03 05</a>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<!-- accordion-item countries end -->
+				</ul>
+			</div>
+			<!-- accordion block end -->
 
-		<!-- scripts block -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-		<script src="js/script.js"></script>
-	</body>
+			<div class="footer__divider"></div>
+			<div class="footer__copyright">
+				<span class="copyright-simbol">&copy;</span>
+				Prengi Ink. 2008-2017 Все права защищены.
+			</div>
+		</div>
+	</footer>
+	<!-- footer block end -->
+
+	<!-- scripts block -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/3.0.5/metisMenu.min.js"></script>
+
+	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+	<script src="js/script.js"></script>
+</body>
+
 </html>
