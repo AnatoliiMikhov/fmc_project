@@ -70,5 +70,4 @@ gulp.task('watch', function () {
 	gulp.watch("src/*.html").on('change', gulp.parallel('html'));
 });
 
-gulp.task('default', gulp.parallel('html', 'styles', 'icon',
-	'fonts', 'images', 'scripts', 'watch', 'server'));
+gulp.task('default', gulp.parallel('html', 'styles', 'icon', 'fonts', 'images', 'scripts', 'watch', 'server'));

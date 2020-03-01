@@ -1,24 +1,16 @@
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
 	.countries {
 		padding: 10px 0;
 
 		&-item {
 			&__heading {
-				font-size: 12px;
-			}
-
-			&__text {
-				margin-left: 0;
-			}
-
-			&__img {
-				display: none;
+				font-size: 13px;
 			}
 
 			&__address,
 			&__phone,
 			&__mail-link {
-				font-size: 9px;
+				font-size: 11px;
 				line-height: 18px;
 			}
 		}

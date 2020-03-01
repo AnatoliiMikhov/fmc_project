@@ -18,9 +18,13 @@
 		[class^=icon-]:before {
 			margin: 0;
 		}
+	}
+}
 
+@media(max-width: 575.98px) {
+	.with-prengi {
 		.col {
-			padding: 0 5px;
+			padding: 0 15px;
 		}
 	}
 }

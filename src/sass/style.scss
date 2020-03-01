@@ -37,22 +37,8 @@
 @import 'blocks/start_media';
 @import 'blocks/footer_media';
 @import 'blocks/accordion_media';
+@import 'blocks/pageup';
 
-
-
-// стили для скрытия - показа элементов
-// visible and hidden styles
-.visible-sm {
-	display: none;
-}
-
-@media(max-width: 767.98px) {
-
-	.visible-sm {
-		display: block;
-	}
-
-	.hidden-sm {
-		display: none;
-	}
+.row>div {
+	margin: 0 auto;
 }

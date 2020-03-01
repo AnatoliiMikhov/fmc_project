@@ -26,8 +26,8 @@
 
 <body>
 	<!-- countries block start-->
-	<div class="countries hidden-sm">
-		<div class="container">
+	<div class="countries d-none d-lg-block">
+		<div class="container-xl">
 			<div class="countries-wrapper">
 				<div class="countries-item">
 					<img src="icon/flags/ukraine.png" alt="Ukraine flag" class="countries-item__img" />
@@ -38,7 +38,8 @@
 						<div class="countries-item__contact">
 							<a href="tel:+3806393007002" class="countries-item__phone">tel. +38(063) 930 07 002</a>
 
-							<a href="email:hi@vasolutions.com.ua" class="countries-item__mail-link">hi@vasolutions.com.ua</a>
+							<a href="email:hi@vasolutions.com.ua"
+								class="countries-item__mail-link">hi@vasolutions.com.ua</a>
 						</div>
 					</div>
 				</div>
@@ -108,9 +109,9 @@
 	</div>
 	<!-- countries block end-->
 	<!-- promo section start-->
-	<section class="promo">
-		<div class="container">
-			<h2 class="semantic-stub">semantic stub</h2>
+	<section class="promo" id="promo">
+		<div class="container-md">
+			<h2 class="d-none"></h2>
 			<header class="header">
 				<div class="header__logo">
 					<a href="#">
@@ -137,13 +138,13 @@
 					</ul>
 				</nav>
 			</header>
-			<h1 class="promo-text__heading md_visible">
+			<h1 class="promo-text__heading d-lg-none">
 				Управляй своим бизнесом<br />
 				через Smartphone
 			</h1>
 			<div class="promo-content">
 				<div class="promo-text">
-					<h1 class="promo-text__heading md_hidden">
+					<h1 class="promo-text__heading d-none d-lg-block">
 						Управляй своим бизнесом<br />
 						через Smartphone
 					</h1>
@@ -164,9 +165,9 @@
 	<!-- promo section end-->
 	<!-- with-prengi section start -->
 	<section class="with-prengi">
-		<div class="container">
+		<div class="container-md">
 			<div class="row">
-				<div class="col">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="with-prengi-item">
 						<div class="with-prengi__img">
 							<img src="img/with-prengi/with-prengi_1.png" alt="#" />
@@ -179,7 +180,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="with-prengi-item">
 						<div class="with-prengi__img">
 							<img src="img/with-prengi/with-prengi_2.png" alt="#" />
@@ -192,7 +193,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="with-prengi-item">
 						<div class="with-prengi__img">
 							<img src="img/with-prengi/with-prengi_3.png" alt="#" />
@@ -212,7 +213,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col">
+				<div class="col-12 col-sm-6  col-lg-4">
 					<div class="with-prengi-item">
 						<div class="with-prengi__img">
 							<img src="img/with-prengi/with-prengi_4.png" alt="#" />
@@ -225,7 +226,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-6  col-lg-4">
 					<div class="with-prengi-item">
 						<div class="with-prengi__img">
 							<img src="img/with-prengi/with-prengi_5.png" alt="#" />
@@ -238,7 +239,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col-12 col-sm-6  col-lg-4">
 					<div class="with-prengi-item">
 						<div class="with-prengi__img">
 							<img src="img/with-prengi/with-prengi_6.png" alt="#" />
@@ -440,7 +441,7 @@
 	<!-- footer block start -->
 	<footer class="footer">
 		<div class="container-xl">
-			<div class="footer__wrapper hidden-sm">
+			<div class="footer__wrapper d-none d-lg-flex">
 				<div class="footer-item">
 					<h3 class="footer-item__heading">О компании</h3>
 					<img src="icon/footer_solution.png" alt="V &amp; A Solutions logo" />
@@ -508,31 +509,51 @@
 			<!-- footer__wrapper class end -->
 			<!-- accordion footer block start -->
 			<!-- accordion plagin source https://www.jqueryscript.net/menu/jQuery-Accordion-Menu-Plugin-For-Bootstrap-3-metisMenu.html -->
-			<div class="accordion visible-sm">
+			<div class="accordion d-lg-none">
 				<ul id="menu" class="accordion-list-level-1">
 					<!-- accordion-item about company -->
 					<li class="accordion-item">
 						<a href="#" class="accordion__link accordion__caption">О компании</a>
 						<ul class="accordion-list-level-2">
 							<li>
-								<img src="icon/footer_solution.png" alt="V &amp; A Solutions logo" class="accordion__img" />
+								<img src="icon/footer_solution.png" alt="V &amp; A Solutions logo"
+									class="accordion__img" />
 							</li>
 							<li>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At architecto libero vel nesciunt quia,
-									deserunt, similique dolores consequuntur sed accusamus quaerat. Quis eligendi voluptatem sed fugit.
-									Deserunt sit veritatis porro ratione accusantium illo, incidunt fugiat numquam culpa, aliquid iste
-									doloremque voluptas at earum ullam molestiae, consequuntur enim. Repellat omnis accusantium atque
-									dolores molestiae, deserunt reprehenderit. Necessitatibus dignissimos provident, iure laboriosam
-									placeat ullam dolorum distinctio mollitia libero voluptatem atque facilis nulla porro, ad nostrum
-									totam quam voluptates repellendus corporis nisi temporibus dolor? Enim iusto voluptatem vitae ipsa
-									reprehenderit facilis sunt dicta odit sed voluptates quidem, eveniet culpa quis maxime mollitia
-									recusandae!</p>
+								<p>
+									Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. At architecto libero
+									vel nesciunt quia, deserunt, similique
+									dolores consequuntur sed accusamus
+									quaerat. Quis eligendi voluptatem sed
+									fugit. Deserunt sit veritatis porro
+									ratione accusantium illo, incidunt
+									fugiat numquam culpa, aliquid iste
+									doloremque voluptas at earum ullam
+									molestiae, consequuntur enim. Repellat
+									omnis accusantium atque dolores
+									molestiae, deserunt reprehenderit.
+									Necessitatibus dignissimos provident,
+									iure laboriosam placeat ullam dolorum
+									distinctio mollitia libero voluptatem
+									atque facilis nulla porro, ad nostrum
+									totam quam voluptates repellendus
+									corporis nisi temporibus dolor? Enim
+									iusto voluptatem vitae ipsa
+									reprehenderit facilis sunt dicta odit
+									sed voluptates quidem, eveniet culpa
+									quis maxime mollitia recusandae!
+								</p>
 							</li>
 							<li>
 								<p>Our Motto:</p>
 							</li>
 							<li>
-								<p>&#8220; Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, laboriosam. &#8221;</p>
+								<p>
+									&#8220; Lorem ipsum dolor sit amet
+									consectetur adipisicing elit. Iusto,
+									laboriosam. &#8221;
+								</p>
 							</li>
 						</ul>
 					</li>
@@ -632,18 +653,22 @@
 						<a href="#" class="accordion__link accordion__caption">Контакты в странах</a>
 						<ul class="accordion-list-level-2">
 							<li>
-								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Ukraine</a>
+								<a href="#"
+									class="accordion__link accordion__caption accordion__caption_lev-2">Ukraine</a>
 								<ul class="accordion-list-level-3">
 									<li>
-										<a href="tel:+3806393007002" class="accordion__link">tel: +38(063) 930 07 002</a>
+										<a href="tel:+3806393007002" class="accordion__link">tel: +38(063) 930 07
+											002</a>
 									</li>
 									<li>
-										<a href="email:hi@vasolutions.com.ua" class="accordion__link">email: hi@vasolutions.com.ua</a>
+										<a href="email:hi@vasolutions.com.ua" class="accordion__link">email:
+											hi@vasolutions.com.ua</a>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Germany</a>
+								<a href="#"
+									class="accordion__link accordion__caption accordion__caption_lev-2">Germany</a>
 								<ul class="accordion-list-level-3">
 									<li>
 										<a href="#" class="accordion__link">Trierer Strabe 35, 54329
@@ -656,7 +681,8 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Estonia</a>
+								<a href="#"
+									class="accordion__link accordion__caption accordion__caption_lev-2">Estonia</a>
 								<ul class="accordion-list-level-3">
 									<li>
 										<p>
@@ -667,7 +693,8 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Great Britain</a>
+								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Great
+									Britain</a>
 								<ul class="accordion-list-level-3">
 									<li>
 										<p>
@@ -678,7 +705,8 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#" class="accordion__link accordion__caption accordion__caption_lev-2">Luxembourg</a>
+								<a href="#"
+									class="accordion__link accordion__caption accordion__caption_lev-2">Luxembourg</a>
 								<ul class="accordion-list-level-3">
 									<li>
 										<p>
@@ -704,6 +732,10 @@
 		</div>
 	</footer>
 	<!-- footer block end -->
+	<!-- Page Up link -->
+	<a class="pageup" href="#promo">
+		<span>&#8593;</span>
+	</a>
 
 	<!-- scripts block -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
