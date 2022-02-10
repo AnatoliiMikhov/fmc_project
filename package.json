@@ -33,7 +33,7 @@
 		"gulp-rename": "^2.0.0",
 		"gulp-sass": "^4.0.2",
 		"jshint": "^2.11.0",
-		"node-sass": "^4.13.0",
+		"node-sass": "^7.0.0",
 		"npm": "^6.13.7"
 	},
 	"browserslist": [
