@@ -1,13 +1,15 @@
 .swiper-container {
+    position: relative;
+    overflow: hidden;
 
-	img {
-		display: block;
-		margin: 0 auto;
-		width: 100%;
-	}
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-	color: rgba(33, 175, 209, 0.8);
+    color: rgba(33, 175, 209, 0.8);
 }
