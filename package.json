@@ -1,45 +1,48 @@
 {
-	"name": "pulse",
-	"version": "1.0.0",
-	"description": "webdeveloper fmc_project site",
-	"main": "gulpfile.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ups7write/fmc_project.git"
-	},
-	"keywords": [
-		"fmc",
-		"site",
-		"webdev",
-		"gulp"
-	],
-	"author": "ups7write",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/ups7write/fmc_project/issues"
-	},
-	"homepage": "https://github.com/ups7write/fmc_project#readme",
-	"devDependencies": {
-		"browser-sync": "^2.26.7",
-		"gulp": "^4.0.2",
-		"gulp-autoprefixer": "^7.0.1",
-		"gulp-clean-css": "^4.2.0",
-		"gulp-cli": "^2.2.0",
-		"gulp-htmlmin": "^5.0.1",
-		"gulp-imagemin": "^7.1.0",
-		"gulp-rename": "^2.0.0",
-		"gulp-sass": "^4.0.2",
-		"jshint": "^2.11.0",
-		"node-sass": "^4.13.0",
-		"npm": "^6.13.7"
-	},
-	"browserslist": [
-		"last 2 version",
-		"> 1%",
-		"maintained node versions",
-		"not dead"
-	]
+    "name": "pulse",
+    "version": "1.0.0",
+    "description": "webdeveloper fmc_project site",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ups7write/fmc_project.git"
+    },
+    "keywords": [
+        "fmc",
+        "site",
+        "webdev",
+        "gulp"
+    ],
+    "author": "ups7write",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ups7write/fmc_project/issues"
+    },
+    "homepage": "https://github.com/ups7write/fmc_project#readme",
+    "devDependencies": {
+        "browser-sync": "^2.27.10",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-cli": "^2.3.0",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.54.5",
+        "jshint": "^2.13.5",
+        "npm": "^8.18.0"
+    },
+    "browserslist": [
+        "last 2 version",
+        "> 1%",
+        "maintained node versions",
+        "not dead"
+    ],
+    "overrides": {
+        "graceful-fs": "^4.2.10"
+    }
 }
