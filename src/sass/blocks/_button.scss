@@ -1,39 +1,40 @@
 .button {
-	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.07);
-	width: 249px;
-	height: 68px;
-	background-color: #00c2f0;
-	border-radius: 8px;
-	font-size: 16px;
-	line-height: 30px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #ffffff;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
+    width: 249px;
+    height: 68px;
+    background-color: #00c2f0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
 
-	&:hover {
-		background-color: #226499;
-		box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.5);
-		transform: scale(1.03);
-	}
+    &:hover {
+        background-color: #226499;
+        box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.5);
+        transform: scale(1.03);
+    }
 
-	&_promo {
-		margin-top: 35px;
-	}
+    &_promo {
+        margin-top: 35px;
+    }
 }
 
 @media (max-width: 991.98px) {
-	.button {
-		&_promo {
-			margin-top: 90px;
-		}
-	}
+    .button {
+        &_promo {
+            margin-top: 90px;
+        }
+    }
 }
 
-@media (max-width: 767.98px){
-	.button{
-		&_promo{
-			width: 220px;
-			height: 58px;
-		}
-	}
+@media (max-width: 767.98px) {
+    .button {
+        &_promo {
+            width: 220px;
+            height: 58px;
+        }
+    }
 }
